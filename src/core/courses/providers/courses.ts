@@ -85,7 +85,7 @@ export class CoreCoursesProvider {
                     criteria: [
                         { key: criteriaKey, value: categoryId }
                     ],
-                    addsubcategories: addSubcategories ? 1 : 0
+                    addsubcategories: 0 /** addSubcategories ? 1 : 0 */
                 },
                 preSets = {
                     cacheKey: this.getCategoriesCacheKey(categoryId, addSubcategories),

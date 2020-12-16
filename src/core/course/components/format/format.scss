@@ -53,6 +53,10 @@ ion-app.app-root core-course-format {
 
         core-format-text {
             line-height: 44px;
+            font-size: 23px;
+            font-weight: bold;
+            font-style: italic;
+            border-bottom: 0.5px solid black;
         }
 
         ion-badge core-format-text {

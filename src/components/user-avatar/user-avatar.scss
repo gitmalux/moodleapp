@@ -9,7 +9,7 @@ ion-avatar[core-user-avatar] {
         height: 14px;
         border-radius: 50%;
         &.online {
-            border: 1px solid white;
+            border: 2px solid red;
             background-color: $core-online-color;
         }
     }
@@ -22,6 +22,9 @@ ion-avatar[core-user-avatar] {
         @include position(null, -4px, -4px, null);
         width: 24px;
         height: 24px;
+    }
+    img {
+        border: 2px solid #f98012;
     }
 }
 
